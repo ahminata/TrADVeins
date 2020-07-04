@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/TrAD/simulations/results/*-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="Coverage">
+      <items xsi:type="scave:Add" filterPattern="name(messagesReceived:sum)"/>
+      <items xsi:type="scave:ComputeScalar" scalarName="Total_coverage" valueExpr="sum('messagesReceived:sum')" moduleExpr="*.host[*].*" groupByExpr="run" averageReplications="true" computeStddev="true" computeConfidenceInterval="true" confidenceLevel="0.9" computeMinMax="true"/>
+      <items xsi:type="scave:Discard" filterPattern="name(messagesReceived:sum)"/>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default"/>
+  </chartSheets>
+</scave:Analysis>

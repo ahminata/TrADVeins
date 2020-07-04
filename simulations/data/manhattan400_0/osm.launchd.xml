@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<launch>
+	<copy file="net.net.xml" />
+	<copy file="routes.xml" />
+	<copy file="poly.xml" />
+	<copy file="manhattan.sumocfg" type="config" />
+</launch>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2019-09-15 15:47:22.985068 by $Id$
+  options: 
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="0" begin="0.0" end="1.0" period="40" from="E7D7" departPos="random" departSpeed="max"/>
+    <flow id="1" begin="0.0" end="1.0" period="40" from="G1H1" departPos="random" departSpeed="max"/>
+    <flow id="2" begin="0.0" end="1.0" period="40" from="F6E6" departPos="random" departSpeed="max"/>
+    <flow id="3" begin="0.0" end="1.0" period="40" from="A2A3" departPos="random" departSpeed="max"/>
+    <flow id="4" begin="0.0" end="1.0" period="40" from="H3H2" departPos="random" departSpeed="max"/>
+    <flow id="5" begin="0.0" end="1.0" period="40" from="G7H7" departPos="random" departSpeed="max"/>
+    <flow id="6" begin="0.0" end="1.0" period="40" from="D6C6" departPos="random" departSpeed="max"/>
+    <flow id="7" begin="0.0" end="1.0" period="40" from="E2E3" departPos="random" departSpeed="max"/>
+    <flow id="8" begin="0.0" end="1.0" period="40" from="A1A0" departPos="random" departSpeed="max"/>
+    <flow id="9" begin="0.0" end="1.0" period="40" from="C2D2" departPos="random" departSpeed="max"/>
+    <flow id="10" begin="0.0" end="1.0" period="40" from="F7G7" departPos="random" departSpeed="max"/>
+    <flow id="11" begin="0.0" end="1.0" period="40" from="G1H1" departPos="random" departSpeed="max"/>
+    <flow id="12" begin="0.0" end="1.0" period="40" from="E6F6" departPos="random" departSpeed="max"/>
+    <flow id="13" begin="0.0" end="1.0" period="40" from="A0A1" departPos="random" departSpeed="max"/>
+    <flow id="14" begin="0.0" end="1.0" period="40" from="B6B5" departPos="random" departSpeed="max"/>
+    <flow id="15" begin="0.0" end="1.0" period="40" from="H6H5" departPos="random" departSpeed="max"/>
+    <flow id="16" begin="0.0" end="1.0" period="40" from="C3C2" departPos="random" departSpeed="max"/>
+    <flow id="17" begin="0.0" end="1.0" period="40" from="E2E1" departPos="random" departSpeed="max"/>
+    <flow id="18" begin="0.0" end="1.0" period="40" from="B6A6" departPos="random" departSpeed="max"/>
+    <flow id="19" begin="0.0" end="1.0" period="40" from="F3F2" departPos="random" departSpeed="max"/>
+    <flow id="20" begin="0.0" end="1.0" period="40" from="G7G6" departPos="random" departSpeed="max"/>
+    <flow id="21" begin="0.0" end="1.0" period="40" from="C7C6" departPos="random" departSpeed="max"/>
+    <flow id="22" begin="0.0" end="1.0" period="40" from="B2C2" departPos="random" departSpeed="max"/>
+    <flow id="23" begin="0.0" end="1.0" period="40" from="C4B4" departPos="random" departSpeed="max"/>
+    <flow id="24" begin="0.0" end="1.0" period="40" from="A0A1" departPos="random" departSpeed="max"/>
+    <flow id="25" begin="0.0" end="1.0" period="40" from="C6B6" departPos="random" departSpeed="max"/>
+    <flow id="26" begin="0.0" end="1.0" period="40" from="G3F3" departPos="random" departSpeed="max"/>
+    <flow id="27" begin="0.0" end="1.0" period="40" from="C4D4" departPos="random" departSpeed="max"/>
+    <flow id="28" begin="0.0" end="1.0" period="40" from="F4E4" departPos="random" departSpeed="max"/>
+    <flow id="29" begin="0.0" end="1.0" period="40" from="H5H6" departPos="random" departSpeed="max"/>
+    <flow id="30" begin="0.0" end="1.0" period="40" from="F6F7" departPos="random" departSpeed="max"/>
+    <flow id="31" begin="0.0" end="1.0" period="40" from="A1B1" departPos="random" departSpeed="max"/>
+    <flow id="32" begin="0.0" end="1.0" period="40" from="D0C0" departPos="random" departSpeed="max"/>
+    <flow id="33" begin="0.0" end="1.0" period="40" from="A1A0" departPos="random" departSpeed="max"/>
+    <flow id="34" begin="0.0" end="1.0" period="40" from="B4C4" departPos="random" departSpeed="max"/>
+    <flow id="35" begin="0.0" end="1.0" period="40" from="B5C5" departPos="random" departSpeed="max"/>
+    <flow id="36" begin="0.0" end="1.0" period="40" from="H2H1" departPos="random" departSpeed="max"/>
+    <flow id="37" begin="0.0" end="1.0" period="40" from="C6C7" departPos="random" departSpeed="max"/>
+    <flow id="38" begin="0.0" end="1.0" period="40" from="E1E2" departPos="random" departSpeed="max"/>
+    <flow id="39" begin="0.0" end="1.0" period="40" from="B0C0" departPos="random" departSpeed="max"/>
+</routes>

@@ -1,0 +1,3 @@
+package trad;
+
+@license(LGPL);

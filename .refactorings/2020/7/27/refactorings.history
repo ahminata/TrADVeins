@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TrAD/simulations/Analyse_UVCAST.anf&apos; to &apos;Analyse_Globale.anf&apos;" description="Rename resource &apos;Analyse_UVCAST.anf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="simulations/Analyse_UVCAST.anf" name="Analyse_Globale.anf" stamp="1593877728258" updateReferences="true"/>
+</session>
