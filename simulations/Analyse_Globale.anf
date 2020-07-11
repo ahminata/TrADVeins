@@ -8,9 +8,15 @@
       <items xsi:type="scave:Add" filterPattern="name(messagesReceived:sum)"/>
       <items xsi:type="scave:ComputeScalar" scalarName="Total_coverage" valueExpr="sum('messagesReceived:sum')" moduleExpr="*.host[*].*" groupByExpr="run" averageReplications="true" computeStddev="true" computeConfidenceInterval="true" confidenceLevel="0.9" computeMinMax="true"/>
       <items xsi:type="scave:Discard" filterPattern="name(messagesReceived:sum)"/>
+      <items xsi:type="scave:BarChart" name="">
+        <properties name="Legend.Display" value="true"/>
+        <properties name="Legend.Position" value="Right"/>
+        <groupByFields>measurement</groupByFields>
+        <barFields>name</barFields>
+      </items>
     </datasets>
   </datasets>
   <chartSheets>
-    <chartSheets name="default"/>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.3"/>
   </chartSheets>
 </scave:Analysis>
